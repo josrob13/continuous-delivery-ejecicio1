@@ -36,6 +36,7 @@ public class PostControllerTest {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
 
+	
 	@AfterEach
 	public void teardown() {
 		if (driver != null) {
